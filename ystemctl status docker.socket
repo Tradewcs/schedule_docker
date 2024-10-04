@@ -1,0 +1,58 @@
+docker.service
+[0;1;32m●[0m ├─containerd.service
+[0;1;31m×[0m ├─docker.socket
+[0;1;32m●[0m ├─system.slice
+[0;1;32m●[0m ├─network-online.target
+[0;1;32m●[0m │ └─NetworkManager-wait-online.service
+[0;1;32m●[0m └─sysinit.target
+[0;1;32m●[0m   ├─dev-hugepages.mount
+[0;1;32m●[0m   ├─dev-mqueue.mount
+[0;1;32m●[0m   ├─dracut-shutdown.service
+[0;1;32m●[0m   ├─kmod-static-nodes.service
+[0m○[0m   ├─ldconfig.service
+[0;1;32m●[0m   ├─lvm2-lvmpolld.socket
+[0;1;32m●[0m   ├─lvm2-monitor.service
+[0;1;32m●[0m   ├─proc-sys-fs-binfmt_misc.automount
+[0;1;32m●[0m   ├─sys-fs-fuse-connections.mount
+[0;1;32m●[0m   ├─sys-kernel-config.mount
+[0;1;32m●[0m   ├─sys-kernel-debug.mount
+[0;1;32m●[0m   ├─sys-kernel-tracing.mount
+[0;1;32m●[0m   ├─systemd-ask-password-console.path
+[0m○[0m   ├─systemd-binfmt.service
+[0;1;32m●[0m   ├─systemd-boot-random-seed.service
+[0m○[0m   ├─systemd-firstboot.service
+[0m○[0m   ├─systemd-hibernate-clear.service
+[0m○[0m   ├─systemd-hwdb-update.service
+[0m○[0m   ├─systemd-journal-catalog-update.service
+[0;1;32m●[0m   ├─systemd-journal-flush.service
+[0;1;32m●[0m   ├─systemd-journald.service
+[0m○[0m   ├─systemd-machine-id-commit.service
+[0;1;32m●[0m   ├─systemd-modules-load.service
+[0m○[0m   ├─systemd-pcrmachine.service
+[0m○[0m   ├─systemd-pcrphase-sysinit.service
+[0m○[0m   ├─systemd-pcrphase.service
+[0;1;32m●[0m   ├─systemd-random-seed.service
+[0m○[0m   ├─systemd-repart.service
+[0;1;32m●[0m   ├─systemd-sysctl.service
+[0m○[0m   ├─systemd-sysusers.service
+[0;1;32m●[0m   ├─systemd-timesyncd.service
+[0;1;32m●[0m   ├─systemd-tmpfiles-setup-dev-early.service
+[0;1;32m●[0m   ├─systemd-tmpfiles-setup-dev.service
+[0;1;32m●[0m   ├─systemd-tmpfiles-setup.service
+[0m○[0m   ├─systemd-tpm2-setup-early.service
+[0m○[0m   ├─systemd-tpm2-setup.service
+[0;1;32m●[0m   ├─systemd-udev-trigger.service
+[0;1;32m●[0m   ├─systemd-udevd.service
+[0m○[0m   ├─systemd-update-done.service
+[0;1;32m●[0m   ├─systemd-update-utmp.service
+[0;1;32m●[0m   ├─cryptsetup.target
+[0;1;32m●[0m   ├─integritysetup.target
+[0;1;32m●[0m   ├─local-fs.target
+[0;1;32m●[0m   │ ├─-.mount
+[0;1;32m●[0m   │ ├─efi.mount
+[0;1;32m●[0m   │ ├─systemd-fsck-root.service
+[0;1;32m●[0m   │ ├─systemd-remount-fs.service
+[0;1;32m●[0m   │ └─tmp.mount
+[0;1;32m●[0m   ├─swap.target
+[0;1;32m●[0m   │ └─dev-disk-by\x2duuid-76eef76c\x2db1ce\x2d4a4a\x2da328\x2d19e119edfd62.swap
+[0;1;32m●[0m   └─veritysetup.target
